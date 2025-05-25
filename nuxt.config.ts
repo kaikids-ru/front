@@ -19,6 +19,6 @@ export default defineNuxtConfig({
     }
   },
   yandexMaps: {
-    apikey: '54a27b4b-995e-4730-ab68-4da252a2b940',
+    apikey: 'ce367ffc-7d9f-4a3a-b783-a5b1700a023a',
   },
 })
