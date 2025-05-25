@@ -18,6 +18,29 @@
           </li>
         </ul>
       </div>
+      <h2 class="center__title-2">
+        Академия развития интеллекта " Кай Кидс" специализируется на работе с
+        детьми, начиная с раннего возраста ( от 1 года) и до 14 лет.
+      </h2>
+      <ul class="list-reset center__list-2">
+        <li class="center__item-2">Нейропсихологи</li>
+        <li class="center__item-2">Специалисты по сенсорной интеграции</li>
+        <li class="center__item-2">Логопеды-дефектологи</li>
+        <li class="center__item-2">Нутрициологи</li>
+        <li class="center__item-2">Психологи</li>
+        <li class="center__item-2">Педагоги раннего развития</li>
+        <li class="center__item-2">Педагоги широкого профиля</li>
+      </ul>
+      <p class="center__description-2">Работа со сложными диагнозами:</p>
+      <p class="center__description-3">
+        РАС ( аутизм), ЗПРР, ЗПР, ЗРР, дисграфия, дизартрия, алаллия, СДВГ,
+        синдром Дауна и т.д
+      </p>
+      <p class="center__description-3">
+        Также у нас можно пройти курс реабилитации, мы работаем с профильными
+        благотворительными организациями и фондами города, оказывающими помощь в
+        сборе средств на реабилитацию.
+      </p>
     </div>
   </section>
 </template>
@@ -47,6 +70,25 @@
     @media screen and (max-width: 675px) {
       font-size: 24px;
       line-height: normal;
+    }
+  }
+  &__title-2 {
+    margin-bottom: 50px;
+    color: #000;
+    text-align: center;
+    font-family: 'Manrope';
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 158.678% */
+    @media screen and (max-width: 1024px) {
+      font-size: 18px;
+      margin-bottom: 50px;
+      line-height: normal;
+    }
+    @media screen and (max-width: 884px) {
+      font-size: 16px;
+      margin-bottom: 30px;
     }
   }
   &__description {
@@ -93,6 +135,7 @@
     }
   }
   &__list {
+    margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -106,6 +149,60 @@
   &__wrapper {
     display: flex;
     justify-content: center;
+  }
+  &__list-2 {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__item-2 {
+    text-align: center;
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 17.578px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+    @media screen and (max-width: 1024px) {
+      font-size: 16px;
+    }
+    @media screen and (max-width: 884px) {
+      font-size: 14px;
+      line-height: normal;
+    }
+  }
+  &__description-2 {
+    margin-bottom: 20px;
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 22.688px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 158.678% */
+    @media screen and (max-width: 1024px) {
+      font-size: 18px;
+      line-height: normal;
+    }
+    @media screen and (max-width: 884px) {
+      font-size: 16px;
+    }
+  }
+  &__description-3 {
+    color: #000;
+    font-family: 'Manrope';
+    font-size: 18.688px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 36px; /* 158.678% */
+    text-decoration: underline;
+    @media screen and (max-width: 1024px) {
+      font-size: 18px;
+      line-height: normal;
+    }
+    @media screen and (max-width: 884px) {
+      font-size: 16px;
+    }
   }
 }
 </style>
